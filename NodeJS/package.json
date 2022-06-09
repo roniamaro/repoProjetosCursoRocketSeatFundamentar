@@ -2,11 +2,15 @@
   "name": "nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "console.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "Roni Amaro",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cfonts": "^2.10.1"
+  }
 }
